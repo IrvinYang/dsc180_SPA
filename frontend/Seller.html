@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = 'utf-8'>
+  <meta http-equiv='X-UA-compatible' content = 'IE=edge'>
+  <title>Balance Finder</title>
+  <meta name='viewpoint' content='wodth=device-width, initial-scale=1'>
+  <link rel='stylesheet' type= 'text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+</head>
+
+<body>
+  <h1> Create a Listing</h1>
+  <button onclick='enableEth()'> Connect Wallet</button>
+  <p id = 'connection'> Connection Status: Not Connected </p>
+  <button onclick='checkEthBalance()'> Check Balance </button>
+  <p id = 'balance'> Not Avaliable </p>
+</body>
+
+<body>
+  <label for="lname">Listing Name:</label>
+  <input type="text" id="lname" name="lname">
+  <label for="ldes">Listing Description:</label>
+  <input type="text" id="ldes" name="ldes">
+</body>
+
+<body>
+  <button>Generate Contract</button>
+  <p id = 'contractAddress'> Click generate contract to create an auction instance </p>
+<body>
